@@ -35,6 +35,7 @@ Este proyecto consta de 3 partes.
 -Prototipo: char *ft_substr(char const *s, unsigned int start, size_t len);
 
 -Parametros:
+
 s: La string desde la que crear la substring. start: El índice del caracter en ’s’ desde el que empezar la substring.
 len: La longitud máxima de la substring.
 
