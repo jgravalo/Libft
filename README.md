@@ -29,7 +29,6 @@ Este proyecto consta de 3 partes.
 
 2. Desarrolla funciones que cumplan estos requisitos.
 
-
 <br>
 <br>
 <br>
@@ -72,7 +71,6 @@ set: Los caracteres a eliminar de la string.
 -Valor devuelto: La string recortada. NULL si falla la reserva de memoria.
 -Funciones autorizadas: malloc
 -Descripción: Elimina todos los caracteres de la string ’set’ desde el principio y desde el final de ’s1’, hasta encontrar un caracter no perteneciente a ’set’. La string resultante se devuelve con una reserva de malloc(3).
-
 
 <br>
 <br>
