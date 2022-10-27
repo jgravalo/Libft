@@ -2,30 +2,30 @@ Este proyecto consta de 3 partes.
 
 1. Replica estas funciones sin utilizar otras funciones.
 
-• isalpha
-• isdigit
-• isalnum 
-• isascii 
-• isprint 
+• isalpha       
+• isdigit       
+• isalnum       
+• isascii       
+• isprint       
 
-• memset 
-• memchr 
-• memcmp 
-• memcpy 
-• memmove 
+• memset        
+• memchr       
+• memcmp       
+• memcpy        
+• memmove       
 
-• strncmp 
-• strlcpy 
-• strlcat
-• strchr 
-• strrchr 
+• strncmp        
+• strlcpy        
+• strlcat        
+• strchr        
+• strrchr        
 
-• strlen 
-• strnstr 
-• bzero
-• toupper 
-• tolower 
-• atoi
+• strlen         
+• strnstr       
+• bzero        
+• toupper        
+• tolower      
+• atoi          
 
 • calloc (con malloc autorizado)
 • strdup (con malloc autorizado)
