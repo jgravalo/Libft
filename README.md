@@ -46,10 +46,11 @@ len: La longitud máxima de la substring.
 
 -Descripción: Reserva (con malloc(3)) y devuelve una substring de la string ’s’. La substring empieza desde el índice ’start’ y tiene una longitud máxima ’len’.
 
-<hr>
-<hr>
-<hr>
-<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
 • Nombre: ft_strjoin
 -Prototipo: char *ft_strjoin(char const *s1, char const *s2);
 -Parametros:
