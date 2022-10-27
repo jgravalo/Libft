@@ -52,7 +52,7 @@ len: La longitud máxima de la substring.
 
 
 • Nombre: ft_strjoin
--Prototipo: char *ft_strjoin(char const *s1, char const *s2);*
+-Prototipo: char *ft_strjoin(char const *s1, char const *s2);
 -Parametros:
 s1: La primera string.
 s2: La string a añadir a ’s1’.
