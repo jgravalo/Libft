@@ -264,6 +264,9 @@ content: el contenido con el que crear el nodo.
 
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_lstadd_front
 
 -Prototipo: void ft_lstadd_front(t_list **lst, t_list *new);
@@ -282,6 +285,9 @@ new: un puntero al nodo que añadir al principio de la lista.
 
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_lstsize 
 
 -Prototipo: int ft_lstsize(t_list *lst);
@@ -300,6 +306,9 @@ lst: el principio de la lista.
 
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_lstlast 
 
 -Prototipo: t_list *ft_lstlast(t_list *lst);
@@ -318,6 +327,9 @@ lst: el principio de la lista.
 
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_lstadd_back
 
 -Prototipo: void ft_lstadd_back(t_list **lst, t_list *new);
@@ -338,6 +350,9 @@ new: el puntero a un nodo que añadir a la lista.
 
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_lstdelone 
 
 -Prototipo: void ft_lstdelone(t_list *lst, void (*del)(void *));
@@ -358,6 +373,9 @@ del: un puntero a la función utilizada para liberar el contenido del nodo.
 
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_lstclear
 
 -Prototipo: void ft_lstclear(t_list **lst, void (*del)(void *));**
@@ -378,6 +396,9 @@ del: un puntero a función utilizado para eliminar el contenido de un nodo.
 
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_lstiter
 
 -Prototipo: void ft_lstiter(t_list *lst, void (*f)(void *));*
@@ -397,6 +418,9 @@ f: un puntero a la función que utilizará cada nodo.
 
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_lstmap
 -Prototipo: t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));*
 
