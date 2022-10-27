@@ -62,7 +62,7 @@ s2: La string a añadir a ’s1’.
 
 
 • Nombre: ft_strtrim 
--Prototipo: char *ft_strtrim(char const *s1, char const *set);*
+-Prototipo: char *ft_strtrim(char const *s1, char const *set);
 -Parametros: 
 s1: La string que debe ser recortada.
 set: Los caracteres a eliminar de la string.
@@ -72,7 +72,7 @@ set: Los caracteres a eliminar de la string.
 
 
 • Nombre:  ft_split
--Prototipo: char **ft_split(char const *s, char c);**
+-Prototipo: char **ft_split(char const *s, char c);
 -Parametros: 
 s: La string a separar.
 c: El carácter delimitador.
@@ -82,7 +82,7 @@ c: El carácter delimitador.
 
 
 • Nombre: ft_itoa
--Prototipo: char *ft_itoa(int n);*
+-Prototipo: char *ft_itoa(int n);
 -Parametros: n: el entero a convertir.
 -Valor devuelto: La string que represente el número. NULL si falla la reserva de memoria.
 -Funciones autorizadas: malloc
@@ -90,7 +90,7 @@ c: El carácter delimitador.
 
 
 • Nombre: ft_strmapi
--Prototipo: char *ft_strmapi(char const *s, char (*f)(unsigned int, char));*
+-Prototipo: char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
 -Parametros: 
 s: La string que iterar.
 f: La función a aplicar sobre cada carácter.
@@ -100,7 +100,7 @@ f: La función a aplicar sobre cada carácter.
 
 
 • Nombre:  ft_striteri
--Prototipo: void ft_striteri(char *s, void (*f)(unsigned int, char*));*
+-Prototipo: void ft_striteri(char *s, void (*f)(unsigned int, char*));
 -Parametros: 
 s: La string que iterar.
 f: La función a aplicar sobre cada carácter.
@@ -120,7 +120,7 @@ fd: El file descriptor sobre el que escribir.
 
 
 • Nombre: ft_putstr_fd 
--Prototipo: void ft_putstr_fd(char *s, int fd);*
+-Prototipo: void ft_putstr_fd(char *s, int fd);
 -Parametros:
 s: La string a enviar.
 fd: El file descriptor sobre el que escribir.
@@ -130,7 +130,7 @@ fd: El file descriptor sobre el que escribir.
 
 
 • Nombre: ft_putendl_fd 
--Prototipo: void ft_putendl_fd(char *s, int fd);*
+-Prototipo: void ft_putendl_fd(char *s, int fd);
 -Parametros:
 s: La string a enviar.
 fd: El file descriptor sobre el que escribir.
@@ -162,7 +162,7 @@ content: el contenido con el que crear el nodo.
 
 
 • Nombre: ft_lstadd_front
--Prototipo: void ft_lstadd_front(t_list **lst, t_list *new);**
+-Prototipo: void ft_lstadd_front(t_list **lst, t_list *new);
 -Parametros:
 lst: la dirección de un puntero al primer nodo de una lista.
 new: un puntero al nodo que añadir al principio de la lista.
@@ -172,7 +172,7 @@ new: un puntero al nodo que añadir al principio de la lista.
 
 
 • Nombre: ft_lstsize 
--Prototipo: int ft_lstsize(t_list *lst);*
+-Prototipo: int ft_lstsize(t_list *lst);
 -Parametros:
 lst: el principio de la lista.
 -Valor devuelto: La longitud de la lista.
@@ -190,7 +190,7 @@ lst: el principio de la lista.
 
 
 • Nombre: ft_lstadd_back
--Prototipo: void ft_lstadd_back(t_list **lst, t_list *new);**
+-Prototipo: void ft_lstadd_back(t_list **lst, t_list *new);
 -Parametros:
 lst: el puntero al primer nodo de una lista.
 new: el puntero a un nodo que añadir a la lista.
@@ -200,7 +200,7 @@ new: el puntero a un nodo que añadir a la lista.
 
 
 • Nombre: ft_lstdelone 
--Prototipo: void ft_lstdelone(t_list *lst, void (*del)(void *));*
+-Prototipo: void ft_lstdelone(t_list *lst, void (*del)(void *));
 -Parametros:
 lst: el nodo a liberar.
 del: un puntero a la función utilizada para liberar el contenido del nodo.
