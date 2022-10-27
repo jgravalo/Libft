@@ -30,6 +30,9 @@ Este proyecto consta de 3 partes.
 2. Desarrolla funciones que cumplan estos requisitos.
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_substr
 
 -Prototipo: char *ft_substr(char const *s, unsigned int start, size_t len);
@@ -58,6 +61,9 @@ s2: La string a añadir a ’s1’.
 -Descripción: Reserva (con malloc(3)) y devuelve una nueva string, formada por la concatenación de ’s1’ y ’s2’.
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_strtrim 
 -Prototipo: char *ft_strtrim(char const *s1, char const *set);
 -Parametros: 
@@ -68,6 +74,9 @@ set: Los caracteres a eliminar de la string.
 -Descripción: Elimina todos los caracteres de la string ’set’ desde el principio y desde el final de ’s1’, hasta encontrar un caracter no perteneciente a ’set’. La string resultante se devuelve con una reserva de malloc(3).
 
 
+<br>
+<br>
+<br>
 • Nombre:  ft_split
 -Prototipo: char **ft_split(char const *s, char c);
 -Parametros: 
@@ -78,6 +87,9 @@ c: El carácter delimitador.
 -Descripción: Reserva (utilizando malloc(3)) un array de strings resultante de separar la string ’s’ en substrings utilizando el caracter ’c’ como delimitador. El array debe terminar con un puntero NULL.
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_itoa
 -Prototipo: char *ft_itoa(int n);
 -Parametros: n: el entero a convertir.
@@ -86,6 +98,9 @@ c: El carácter delimitador.
 -Descripción: Utilizando malloc(3), genera una string que represente el valor entero recibido como argumento. Los números negativos tienen que gestionarse.
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_strmapi
 -Prototipo: char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
 -Parametros: 
@@ -96,6 +111,9 @@ f: La función a aplicar sobre cada carácter.
 -Descripción: A cada carácter de la string ’s’, aplica la función ’f’ dando como parámetros el índice de cada carácter dentro de ’s’ y el propio carácter. Genera una nueva string con el resultado del uso sucesivo de ’f’.
 
 
+<br>
+<br>
+<br>
 • Nombre:  ft_striteri
 -Prototipo: void ft_striteri(char *s, void (*f)(unsigned int, char*));
 -Parametros: 
@@ -106,6 +124,9 @@ f: La función a aplicar sobre cada carácter.
 -Descripción: A cada carácter de la string ’s’, aplica la función ’f’ dando como parámetros el índice de cada carácter dentro de ’s’ y la dirección del propio carácter, que podrá modificarse si es necesario.
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_putchar_fd 
 -Prototipo: void ft_putchar_fd(char c, int fd);
 -Parametros: 
@@ -116,6 +137,9 @@ fd: El file descriptor sobre el que escribir.
 -Descripción: Envía el carácter ’c’ al file descriptor especificado.
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_putstr_fd 
 -Prototipo: void ft_putstr_fd(char *s, int fd);
 -Parametros:
@@ -126,6 +150,9 @@ fd: El file descriptor sobre el que escribir.
 -Descripción: Envía la string ’s’ al file descriptor especificado.
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_putendl_fd 
 -Prototipo: void ft_putendl_fd(char *s, int fd);
 -Parametros:
@@ -136,6 +163,9 @@ fd: El file descriptor sobre el que escribir.
 -Descripción: Envía la string ’s’ al file descriptor especificado, seguido de un salto de linea.
 
 
+<br>
+<br>
+<br>
 • Nombre: ft_putnbr_fd 
 -Prototipo: void ft_putnbr_fd(int n, int fd);
 -Parametros:
@@ -146,6 +176,9 @@ fd: El file descriptor sobre el que escribir.
 -Descripción: Envía el número 'n' al file descriptor especificado.
 
 
+<br>
+<br>
+<br>
 3. Desarrolla funciones de listas enlazadas que cumplan estos requisitos. (opcional)
 
 
