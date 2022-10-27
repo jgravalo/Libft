@@ -23,11 +23,14 @@ Este proyecto consta de 3 partes.
 • toupper 
 • tolower 
 • atoi
+
 <br>
 • calloc (con malloc autorizado)
 • strdup (con malloc autorizado)
+
 <br>
 2. Desarrolla funciones que cumplan estos requisitos.
+
 <br>
 • Nombre: ft_substr
 
