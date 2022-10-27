@@ -28,6 +28,7 @@ Este proyecto consta de 3 partes.
 • strdup (con malloc autorizado)
 
 2. Desarrolla funciones que cumplan estos requisitos.
+<br>
 • Nombre: ft_substr
 
 -Prototipo: char *ft_substr(char const *s, unsigned int start, size_t len);
