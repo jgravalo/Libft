@@ -5,7 +5,6 @@ Este proyecto consta de 3 partes.
 • isalpha
 
 • isdigit
-
 • isalnum 
 • isascii 
 • isprint 
