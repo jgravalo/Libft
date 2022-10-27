@@ -28,7 +28,6 @@ Este proyecto consta de 3 partes.
 • strdup (con malloc autorizado)
 
 2. Desarrolla funciones que cumplan estos requisitos.
-
 <br>
 <br>
 <br>
