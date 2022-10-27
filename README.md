@@ -2,8 +2,10 @@ Este proyecto consta de 3 partes.
 
 1. Replica estas funciones sin utilizar otras funciones.
 
-• isalpha 
-• isdigit 
+• isalpha
+
+• isdigit
+
 • isalnum 
 • isascii 
 • isprint 
