@@ -45,9 +45,6 @@ len: La longitud máxima de la substring.
 -Funciones autorizadas: malloc
 
 -Descripción: Reserva (con malloc(3)) y devuelve una substring de la string ’s’. La substring empieza desde el índice ’start’ y tiene una longitud máxima ’len’.
-
-<br>
-<br>
 <br>
 <br>
 <br>
