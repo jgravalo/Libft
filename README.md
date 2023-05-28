@@ -28,6 +28,7 @@ Este proyecto consta de 3 partes.
 • calloc (con malloc autorizado)
 • strdup (con malloc autorizado)
 
+
 <br>
 2. Desarrolla funciones que cumplan estos requisitos.
 
@@ -422,6 +423,7 @@ f: un puntero a la función que utilizará cada nodo.
 <br>
 <br>
 • Nombre: ft_lstmap
+
 -Prototipo: t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));*
 
 -Parametros:
