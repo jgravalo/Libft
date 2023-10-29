@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jgravalo <jgravalo@student.42barcel>       +#+  +:+       +#+         #
+#    By: jgravalo <jgravalo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/08 11:34:02 by jgravalo          #+#    #+#              #
-#    Updated: 2023/04/20 12:22:42 by jgravalo         ###   ########.fr        #
+#    Updated: 2023/10/29 14:13:21 by jgravalo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,16 +27,23 @@ CC              = gcc
 RM              = rm -f
 CFLAGS          = -Wall -Wextra -Werror
 NAME			= libft.a
+
 all:            $(NAME)
+
 $(NAME):        $(OBJS)
 				ar rcs $(NAME) $(OBJS)
 				ranlib ${NAME}
+
 bonus:			$(OBJS) $(BONUS_OBJS)
 				ar rcs $(NAME) $(OBJS) $(BONUS_OBJS)
 				ranlib ${NAME}
+
 clean:			
 				$(RM) $(OBJS) $(BONUS_OBJS)
+
 fclean:			clean
 				$(RM) $(NAME)
+
 re:             fclean $(NAME)
+
 .PHONY:			all bonus clean fclean re
